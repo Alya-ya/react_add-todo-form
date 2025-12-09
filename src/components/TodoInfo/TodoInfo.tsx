@@ -1,4 +1,5 @@
-import { TodoWithUser } from '../../App';
+import React from 'react';
+import type { TodoWithUser } from '../../App';
 import { UserInfo } from '../UserInfo';
 import cn from 'classnames';
 

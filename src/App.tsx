@@ -101,7 +101,7 @@ export const App = () => {
   return (
     <div className="App">
       <h1>Add todo form</h1>
-      <form action="/api/todos" method="POST" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="field">
           <label htmlFor="titleInput">Title: </label>
           <input
